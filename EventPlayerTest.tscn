@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=1]
+
+[sub_resource type="EventStreamChibi" id=1]
+
+
+[node name="Node" type="Node"]
+
+[node name="EventPlayer" type="EventPlayer" parent="."]
+
+stream/stream = SubResource( 1 )
+stream/play = false
+stream/loop = false
+stream/volume_db = 0.0
+stream/pitch_scale = 1.0
+stream/tempo_scale = 1.0
+stream/autoplay = false
+stream/paused = false
+
+

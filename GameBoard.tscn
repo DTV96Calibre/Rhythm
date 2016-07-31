@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://Scripts/center_node.gd" type="Script" id=1]
+[ext_resource path="res://Key.tscn" type="PackedScene" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="F" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( -135, 0 )
+
+[node name="G" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( -45, 0 )
+key = "key2"
+
+[node name="H" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 45, 0 )
+key = "key3"
+
+[node name="J" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 135, 0 )
+key = "key4"
+
+
